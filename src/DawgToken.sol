@@ -5,6 +5,8 @@ contract DawgToken {
     string public name = "Dawg Coin";
     string public symbol = "DWG";
 
+    uint public constant MAX_SUPPLY = 1000000 * 10 ** 18; // 1 million tokens with 18 decimals
+
     address public minter;
     uint private _totalSupply;
 
